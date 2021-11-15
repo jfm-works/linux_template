@@ -1,0 +1,9 @@
+version: '3'
+services:
+  linux:
+    image: ubuntu:focal
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    tty: true
+    stdin_open: true
